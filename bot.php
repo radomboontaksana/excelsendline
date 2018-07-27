@@ -54,7 +54,7 @@ if (!is_null($events['events'])) {
 			];
 			$url = 'https://api.line.me/v2/bot/message/push';
 			$data = [
-				'to' => 'U59f48a57ebce9076298bea788ea1ae2a',
+				'to' => 'U489a0751bc42e6ca4cfbc3a18228e64a',
 				'messages' => [$messages]
 			];
 			$post = json_encode($data);
@@ -80,7 +80,7 @@ if (!is_null($events['events'])) {
 			];
 			$url = 'https://api.line.me/v2/bot/message/push';
 			$data = [
-				'to' => 'U59f48a57ebce9076298bea788ea1ae2a',
+				'to' => 'U489a0751bc42e6ca4cfbc3a18228e64a',
 				'messages' => [$messages]
 			];
 			$post = json_encode($data);
