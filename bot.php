@@ -15,7 +15,7 @@ if (!is_null($events['events'])) {
 			$toroomid = $event['source']['roomId'];
 			$togroupid = $event['source']['groupId'];
 			// Gen Text Reply
-			$gentext = "ขอบคุณที่ติดตามเรา";
+			$gentext = "ขอบคุณที่ติดตามเรา V.4";
 			// Get Replytoken
 			$replyToken = $event['replyToken'];
 			//Make a POST Request to Messaging API to reply to follower
@@ -59,7 +59,7 @@ if (!is_null($events['events'])) {
 			];
 			$url = 'https://api.line.me/v2/bot/message/push';
 			$data = [
-				'to' => 'U554a18dbd36996fdb3dd95c218cf6db0',
+				'to' => 'U529e0dae85b8bf2be3944b345c53eced',
 				'messages' => [$messages]
 			];
 			$post = json_encode($data);
@@ -78,7 +78,7 @@ if (!is_null($events['events'])) {
 			
 			// To group Mac Share
 			$data = [
-				'to' => 'Cc7ac9ccc51f05b2a60a1abed8cf85723',
+				'to' => 'C11cbe42083840cd830306f601e985184',
 				'messages' => [$messages]
 			];
 			$post = json_encode($data);
@@ -104,7 +104,7 @@ if (!is_null($events['events'])) {
 			];
 			$url = 'https://api.line.me/v2/bot/message/push';
 			$data = [
-				'to' => 'U554a18dbd36996fdb3dd95c218cf6db0',
+				'to' => 'U529e0dae85b8bf2be3944b345c53eced',
 				'messages' => [$messages]
 			];
 			$post = json_encode($data);
